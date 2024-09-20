@@ -1,0 +1,644 @@
+/*Default-CSS*/
+input[type="file"]::-webkit-file-upload-button {
+    cursor: pointer;
+}
+input[type="file"]::-moz-file-upload-button {
+    cursor: pointer;
+}
+input[type="file"]::-ms-file-upload-button {
+    cursor: pointer;
+}
+input[type="file"]::-o-file-upload-button {
+    cursor: pointer;
+}
+input[type="file"] {
+    cursor: pointer;
+}
+html {
+    overflow-x: hidden;
+}
+html body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+*::-moz-selection {
+    color: #fff;
+    background: #A5925F;
+}
+*::selection {
+    color: #fff;
+    background: #A5925F;
+}
+*::-moz-selection {
+    color: #fff;
+    background: #A5925F;
+}
+*::-webkit-selection {
+    color: #fff;
+    background: #A5925F;
+}
+*::-ms-selection {
+    color: #fff;
+    background: #A5925F;
+}
+*::-webkit-input-placeholder {
+    color: #333333;
+    opacity: 1;
+}
+*:-moz-placeholder {
+    color: #333333;
+    opacity: 1;
+}
+*::-moz-placeholder {
+    color: #333333;
+    opacity: 1;
+}
+*:-ms-input-placeholder {
+    color: #333333;
+    opacity: 1;
+}
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+a,
+span,
+div a:hover,
+div a:active,
+button {
+    text-decoration: none;
+}
+*::after,
+*::before,
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body a {
+    font-family: "Inter", sans-serif;
+    outline: none;
+    color: #000;
+}
+body a:hover {
+    color: #fff;
+}
+body .clearfix,
+body .clear {
+    clear: both;
+    line-height: 100%;
+}
+body .clearfix {
+    height: auto;
+}
+* {
+    outline: none !important;
+    list-style: none;
+    box-sizing: border-box;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: "Inter", sans-serif;
+}
+.clr:after,
+ul:after,
+.clearfix:after,
+li:after,
+.grve-container:after {
+    clear: both;
+    display: block;
+    content: "";
+    position: absolute;
+}
+div input,
+div select,
+div textarea,
+div button {
+    font-family: "Inter", sans-serif;
+}
+input,
+select,
+textarea {
+    font-family: "Inter", sans-serif;
+    height: 50px;
+    width: 100%;
+    background: #fff;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+select {
+    font-family: "Inter", sans-serif;
+    height: 54px;
+    width: 100%;
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid #cccccc;
+    padding: 0 15px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    font-family: "Inter", sans-serif;
+    line-height: 120%;
+    color: #0c2340;
+    font-weight: bold;
+    margin: 0;
+}
+body h1 {
+    font-size: 50px;
+}
+body h2 {
+    font-size: 50px;
+    line-height: 50px;
+    font-family: "Inter", sans-serif;
+    color: #000;
+    text-align: left;
+    font-weight: 400;
+}
+body h3 {
+    font-size: 30px;
+}
+body h4 {
+    font-size: 24px;
+}
+body h5 {
+    font-size: 12px;
+}
+body h6 {
+    font-size: 10px;
+}
+body h1:last-child,
+body h2:last-child,
+body h3:last-child,
+body h4:last-child,
+body h5:last-child,
+body h6:last-child {
+    margin-bottom: 0;
+}
+div select {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+div select option {
+    font-size: 13px;
+    color: #333;
+    padding: 2px 5px;
+}
+img {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+}
+body p {
+    color: #000;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 0;
+    font-weight: 400;
+    margin: 0;
+}
+body p:empty {
+    margin: 0;
+    line-height: 0;
+}
+p strong {
+    font-weight: bold;
+}
+.a-left {
+    text-align: left;
+}
+.a-right {
+    text-align: right;
+}
+.a-center {
+    text-align: center;
+}
+label em {
+    color: #ff0000;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: top;
+    margin-left: 5px;
+    font-family: "Inter", sans-serif;
+}
+.hidden {
+    display: none !important;
+}
+iframe {
+    display: block;
+    width: 100%;
+}
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+html .container {
+    width: 100%;
+    max-width: 1410px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    position: relative;
+    float: none;
+}
+body .container .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+/*scroll Hide*/
+html.no-scroll {
+    overflow: hidden;
+}
+html.no-scroll body {
+    overflow: hidden;
+    height: 100%;
+}
+/*error*/
+html #form-error,
+html #form-success {
+    color: red;
+    border: 1px solid red;
+    background: #fff;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    padding: 5px 15px;
+    line-height: 140%;
+    margin-top: 15px;
+    position: relative;
+    width: 100%;
+}
+html #form-success {
+    color: green;
+    border: 1px solid green;
+}
+html .wpcf7-not-valid-tip {
+    font-size: 15px;
+    line-height: 120%;
+    padding: 0;
+}
+.contact-form .invalid-input {
+    border: 1px solid red;
+}
+/*succees*/
+html .wpcf7-mail-sent-ok {
+    border: 1px solid green;
+    color: green;
+    text-align: center;
+    background: #fff;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    line-height: 140%;
+    padding: 5px 15px;
+    margin-top: 15px;
+}
+/*error*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+a,
+span,
+b,
+i {
+    display: inline-block;
+    vertical-align: top;
+}
+/*Default-CSS close*/
+.close-button i.fa.fa-times {
+    display: none;
+}
+header#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 0 0 0;
+    z-index: 999;
+}
+header#header.fixed ul>li>a {
+    color: #fff;
+}
+header#header.fixed {
+    background-color: #998452;
+    z-index: 9999;
+    padding: 15px 0;
+}
+ul.nav-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul.nav-section li a {
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #000;
+}
+ul.nav-section li:not(:last-child) {
+    margin-right: 30px;
+}
+ul.nav-section li a.contact-btn {
+    font-size: 14px;
+    line-height: 50px;
+    background: #1F1F2E;
+    color: #fff;
+    padding: 0 20px 0 10px;
+}
+ul.nav-section li a:hover {
+    color: #A5925F;
+}
+ul.nav-section li a.contact-btn:hover {
+    background: #A5925F;
+    color: #fff;
+}
+ul.nav-section li:nth-of-type(7) {
+    position: relative;
+    padding: 0 0 0 30px;
+}
+ul.nav-section li:nth-of-type(7)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: auto;
+    bottom: 0;
+    background: url(../images/call.png) no-repeat;
+    width: 22px;
+    height: 22px;
+}
+header#header.fixed ul.nav-section li:nth-of-type(7)::before {
+    filter: brightness(0) invert(1);
+}
+.banner-image-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-image-content .right-side-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.banner-image-content .right-side-content>div:not(:last-child) {
+    margin-right: 20px;
+}
+.banner-image-content .right-side-content>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 519px;
+}
+.banner-image-content .right-side-content>div>img {
+    height: 100%;
+    width: 100%;
+}
+.banner-image-content .right-side-content>div.home-bnner-img:nth-child(2) {
+    margin: 100px 0 0 0;
+}
+section#home-banner {
+    padding: 100px 0;
+}
+h2.banner-tittle {
+    font-size: 85px;
+    line-height: 85px;
+}
+h2.banner-tittle>span {
+    color: #A5925F;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: 400;
+}
+p.banner-par-day {
+    font-size: 74px;
+    line-height: 85px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+p.banner-paragraph,
+p.common-para {
+    font-size: 20px;
+    line-height: 35px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 0 20px 0;
+}
+.common-btn a.contact-btn {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 700;
+    background: #1F1F2E;
+    color: #fff;
+    padding: 0 20px;
+}
+.common-btn a.contact-btn:hover {
+    background: #A5925F;
+}
+section.Chiropractor-section {
+    background: #000;
+    padding: 100px 0;
+}
+.wrap-chiropractor h2,
+h2.common-heading {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    max-width: 780px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+h2 span.yellow {
+    color: #998452;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+}
+p.common-para {
+    color: #fff;
+    max-width: 845px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.buttom-chiropractor p.common-para {
+    margin: 0;
+    max-width: 100%;
+    text-align: left;
+}
+.boxes-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.chiropractor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 419px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.chiropractor img,
+.transform-imaged img {
+    height: 100%;
+    width: 100%;
+}
+.boxes p {
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 15px;
+}
+section.Transformation-section {
+    padding: 100px 0;
+}
+.wrap-transform {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.transform-imaged {
+    height: 613px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side-transform h2 {
+    max-width: 390px;
+    margin-bottom: 40px;
+}
+.left-side-transform p {
+    max-width: 600px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+}
+.left-side-transform ul {
+    padding: 40px 0 0 0;
+}
+.left-side-transform ul li {
+    padding: 0 0 40px 40px;
+    border-left: 1px solid #DFDFDF;
+}
+.left-side-transform ul li.active {
+    border-left: 1px solid #000;
+}
+.left-side-transform ul li:last-child {
+    padding-bottom: 0;
+}
+.left-side-transform ul li h4 {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 0 0 25px 0;
+}
+.left-side-transform ul li:last-child h4 {
+    color: #2222;
+}
+.left-side-transform ul li p {
+    color: #000;
+    max-width: 420px;
+}
+.transform-imaged.mobile-view {
+    display: none;
+}
+section.we-correct-section {
+    position: relative;
+}
+section.we-correct-section .we-correct-bg img {
+    min-height: 786px;
+    background-position: center center;
+    object-fit: cover;
+}
+section.we-correct-section .container {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    transform: translateY(-50%);
+}
+.we-crt-wrap {
+    width: 100%;
+    max-width: 548px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 0 0 auto;
+    padding: 25px;
+}
+h2.we-crt-heading {
+    font-size: 36px;
+    line-height: 46px;
+    color: #1F1F2C;
+    width: 100%;
+    max-width: 447px;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.we-crt-wrap ul li {
+    position: relative;
+    padding: 0 0 20px 35px;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+}
+.we-crt-wrap ul li:last-child {
+    padding-bottom: 0;
+}
+.we-crt-wrap ul li::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../images/checked-icon.png) no-repeat;
+}
